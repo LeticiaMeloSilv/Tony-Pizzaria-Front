@@ -1,0 +1,102 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/background_perfil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.voltar {
+    padding: 38px 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------------------------------------------- */
+/* https://www.youtube.com/watch?v=gXXmQeZOHKY */
+#picture__input {
+    display: none;
+}
+
+.picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../../img/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    font-family: sans-serif;
+    outline: none;
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------- */
+
+.foto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.foto img{
+    margin:-22px 0px 0px 58px;
+}
+
+header .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgba(174, 166, 166, 1);
+}
+
+.informacao{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid rgba(242, 119, 6, 0.35);
+    border-radius: 8px;
+    margin: 16px;
+    padding: 12px ;
+}
+
+.texto h3{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto h4{
+    color: rgba(153, 153, 153, 1);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+footer{
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.btn_sair{
+    display: flex;
+align-items: center;
+background-color: #F93030;
+padding: 14px 17px;
+gap: 17px;
+border-radius: 8px;
+color: aliceblue;
+
+}
